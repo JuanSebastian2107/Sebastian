@@ -7,6 +7,6 @@ let num3 = Number(prompt("ingresar el tercer numero"));
 let mayor = Math.max(num1, num2, num3);
 let menor = Math.min(num1, num2, num3);
 let intermedio = (num1 + num2 + num3) - menor - mayor;
-  alert(`el dato mayor es ${mayor}, el intermedio es ${intermedio}, el menor es ${menor}`)    
+alert(`el dato menor es ${menor}, el intermedio es ${intermedio}, el mayor es ${mayor}`)    
 }
   numero()

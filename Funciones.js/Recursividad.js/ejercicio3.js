@@ -1,2 +1,7 @@
-//3.Pasar de número entero a número binario con Recursividad.
+function enteroABinario(numero) {
+ return numero.toString(2);
+}
+let numeroEntero = Number(prompt('ingresa un numero'));
+let binario = enteroABinario(numeroEntero);
+alert(`el valor ${numeroEntero} equivale a ${binario}`);
 
