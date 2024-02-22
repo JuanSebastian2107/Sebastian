@@ -5,4 +5,4 @@ var numero4 = parseFloat(prompt('introduce el cuarto numero'));
 
 var media = (numero1 + numero2 + numero3 + numero4) / 4;
 
-alert(`la media de los numeros es ${media}`)
+alert(`la media de los numeros es ${media}`);

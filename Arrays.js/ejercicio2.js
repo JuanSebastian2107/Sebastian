@@ -1,6 +1,8 @@
 let numeros =[102,178,333,487,99,13,22,845,];
+numeros.push(245,30000,50);
+alert(numeros);
+
 let suma = 0;
-numeros.push(245,30000);
 for (let i = 0; i < numeros.length; i++) {
  suma += numeros[i];
 }
