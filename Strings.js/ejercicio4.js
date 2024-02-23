@@ -5,4 +5,4 @@ function invertirFrase(frase) {
 }
 
 const fraseInvertida = invertirFrase(frase);
-    alert(`Frase invertida: ${fraseInvertida}`);
+alert(`Frase invertida: ${fraseInvertida}`);

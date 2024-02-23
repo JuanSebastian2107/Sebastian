@@ -13,7 +13,7 @@ return word.charAt(0).toUpperCase() + word.slice(1);
 } else {
 return word;
 }
-}).join(' ');
+}).join(' ')
 }
 let textoModificado = capitalizeAfterSpace(nombre);
 alert(textoModificado);
