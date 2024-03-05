@@ -1,4 +1,4 @@
-class Calculator{
+class Calculadora{
  constructor(numero1, numero2){
     this.numero1 = numero1;
     this.numero2 = numero2;
@@ -22,7 +22,7 @@ if(this.numero2 != 0){
     const numero1 = parseInt(prompt("ingresa un numero entero"));
     const numero2 = parseInt(prompt("ingresa otro numero entero"));
    
-   const Calculadora = new Calculator(numero1, numero2);
+   const calculadora = new calculadora(numero1, numero2);
    
    console.log(`La suma es ${Calculadora.suma()}`); 
    console.log(`La resta es %${Calculadora.resta()}`);
