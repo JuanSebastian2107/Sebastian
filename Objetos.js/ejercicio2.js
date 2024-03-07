@@ -16,4 +16,3 @@ decrementar() {
     this.valor--;
 }
   }
-  

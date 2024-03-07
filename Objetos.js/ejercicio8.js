@@ -18,8 +18,7 @@ if(this.numero2 != 0){
 }else{
     console.log("no se puede dividir por 0")}
 }
-}
-    const numero1 = parseInt(prompt("ingresa un numero entero"));
+}   const numero1 = parseInt(prompt("ingresa un numero entero"));
     const numero2 = parseInt(prompt("ingresa otro numero entero"));
    
    const calculadora = new calculadora(numero1, numero2);
