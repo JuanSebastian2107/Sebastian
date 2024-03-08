@@ -22,6 +22,6 @@ if (this.ladoA >= this.ladoB && this.ladoB >= this.ladoC|| this.ladoA >= this.la
     console.log(`el valor del lado con un tamaño mayor es ${this.ladoC}`);}
  }
  }
-const triangulo = new Triangulo(19,15,17);
-triangulo.tipoDeTriángulo();
-triangulo.mayorTamaño();
+const triangulo = new triangulo(19,15,17);
+console.log(`él triangulo es de tipo ${triangulo.tipoDeTriángulo()}`);
+console.log(`el lado de mayor tamaño mide ${triangulo.mayorTamaño()}`);
